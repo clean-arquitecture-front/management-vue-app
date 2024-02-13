@@ -1,0 +1,75 @@
+//Overlay properties
+$panel-overlay-open-close-time-animation: 0.5s;
+$panel-overlay-z-index: 2;
+
+//variables-modal
+$panel-modal-z-index: 3;
+$panel-modal-open-close-time-animation: $panel-overlay-open-close-time-animation;
+
+//Side-lateral
+$side-lateral-width: 70px;
+
+//form-inputs
+// --form-legend
+$v-form-fieldset-legend-height: 6px;
+$v-form-legend-font-size-1920: 0.7em;
+$v-form-legend-line-height-1920: 12px;
+
+// --form-fieldset
+$v-form-fieldset-height-1920: 38px;
+$v-form-fieldset-height-1366: 35px;
+$v-form-fieldset-height-1024: 32px;
+
+$v-form-fieldset-border-size: 2px;
+
+$v-form-fieldset-border-radius-1920: 8px;
+$v-form-fieldset-border-radius-1366: 8px;
+$v-form-fieldset-border-radius-1024: 8px;
+
+$v-form-fieldset-has-label-height-1920: calc(#{$v-form-fieldset-height-1920} + #{$v-form-fieldset-legend-height});
+$v-form-fieldset-has-label-height-1366: calc(#{$v-form-fieldset-height-1366} + #{$v-form-fieldset-legend-height});
+$v-form-fieldset-has-label-height-1024: calc(#{$v-form-fieldset-height-1024} + #{$v-form-fieldset-legend-height});
+
+
+
+// --form-input
+
+
+//Measures
+$pix-1: 1px;
+$pix-2: 2px;
+$pix-3: 3px;
+$pix-4: 4px;
+$pix-5: 5px;
+$pix-6: 6px;
+$pix-8: 8px;
+$pix-10: 10px;
+$pix-12: 12px;
+$pix-14: 14px;
+$pix-15: 15px;
+$pix-17: 17px;
+$pix-20: 20px;
+$pix-50: 50px;
+$pix-100: 100px;
+$pix-400: 400px;
+$pix-500: 500px;
+
+$per-90: 90%;
+$per-100: 100%;
+
+$vh-10: 10vh;
+$vh-100: 100vh;
+
+$weight-200: 200;
+$weight-300: 300;
+$weight-400: 400;
+$weight-500: 500;
+$weight-600: 600;
+$weight-700: 700;
+$weight-800: 800;
+
+//colors
+$white: #fff;
+
+//resolution
+$resolution-35em: 35em;

@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "packages": {
+    "management-core": {
+      "signature": "28bbbda705f52abf98bb8b8805cedbbb"
+    }
+  }
+}

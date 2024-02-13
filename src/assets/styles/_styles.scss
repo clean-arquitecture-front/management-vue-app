@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html {
+  box-sizing: border-box;
+
+  //side-lateral
+  --panel-side-lateral-background-color: #0094bf;
+
+  //grid
+  --panel-grid-background-color: 196, 196, 196, 0.2;
+  --panel-grid-tbody-background-color: #fff;
+  --panel-grid-tbody-normal-icon-color: #0094bf;
+  --panel-grid-tbody-remove-icon-color: #ed1c24;
+
+  //card
+  --panel-ng-card-box-shadow-color-1: rgba(82, 63, 104, 0.06);
+  --panel-ng-card-box-shadow-color-2: rgba(82, 63, 104, 0.04);
+  --panel-ng-card-box-shadow-color-3: rgba(82, 63, 104, 0.04);
+
+  //overlay
+  --panel-overlay-background-color: hsla(0, 0%, 100%, 0.85);
+
+  //modal
+  --panel-modal-background-color: #ffffff;
+  --panel-modal-box-shadow-color-1: rgba(11, 20, 26, 0.19);
+  --panel-modal-box-shadow-color-2: rgba(11, 20, 26, 0.24);
+  --panel-modal-header-font-color: #3b4a54;
+  --panel-modal-header-icon-color: #008069;
+
+  --base-color: #0094bf;
+  --panel-ng-card-title-font-color: #0094bf;
+
+  //v-button
+  --v-button-primary-background-color: #0094bf;
+  --v-button-primary-border-color: #0094bf;
+  --v-button-primary-font-color: #ffffff;
+  --v-button-secondary-background-color: transparent;
+  --v-button-secondary-border-color: #e9edef;
+  --v-button-secondary-font-color: #0094bf;
+
+  //v-form
+  //--fielset
+  --v-form-fieldset-background-color: #fff;
+  --v-form-fieldset-border-color: #0094bf;
+
+  //--legend
+  --v-form-fielset-legend-font-color: #0094bf;
+
+  //--input
+  --v-form-fieldset-input-font-color: #3b4a54;
+  --v-form-fieldset-input-placeholder-font-color: #8a9399;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  //background-color: #CFEFF7;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 0;
+}
+
+.label {
+  font-size: 0.9em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    margin: 0 2px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5em;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+    :link, :visited, :active {
+      text-decoration: none;
+    }
+    background-color: var(--base-color);
+  }
+}
+
+//
+@for $i from 1 through 70 {
+  $margin: $i * 1px;
+
+  .m-#{$i} {
+    margin: $margin;
+  }
+
+  .ml-#{$i} {
+    margin-left: $margin;
+  }
+
+  .mr-#{$i} {
+    margin-right: $margin;
+  }
+
+  .mt-#{$i} {
+    margin-top: $margin;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $margin;
+  }
+
+  .mx-#{$i} {
+    margin-left: $margin;
+    margin-right: $margin;
+  }
+
+  .my-#{$i} {
+    margin-top: $margin;
+    margin-bottom: $margin;
+  }
+
+  .p-#{$i} {
+    padding: $margin;
+  }
+
+  .pl-#{$i} {
+    padding-left: $margin;
+  }
+
+  .pr-#{$i} {
+    padding-right: $margin;
+  }
+
+  .pt-#{$i} {
+    padding-top: $margin;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $margin;
+  }
+
+  .px-#{$i} {
+    padding-left: $margin;
+    padding-right: $margin;
+  }
+
+  .py-#{$i} {
+    padding-top: $margin;
+    padding-bottom: $margin;
+  }
+}
